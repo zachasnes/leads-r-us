@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zach's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            margin-bottom: 1rem;
+        }
+        .contact-info {
+            margin-top: 2rem;
+            padding: 1rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .contact-info p {
+            margin: 0.5rem 0;
+        }
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Zach's Personal Webpage</h1>
+    </header>
+    <div class="container">
+        <section>
+            <h2>About Me</h2>
+            <p>Hi, I'm Zach. I work with personal injury attorneys to generate qualified leads so attorneys can focus on what they do best: winning cases.</p>
+            <p>What makes me different is my background in data and my use of AI to catch the most qualified prospects and send them directly to you. I have a passion for working with clients and creating a partnership rather than just selling a service. When you work with me, you have a direct line to me rather than talking to a chat bot.</p>
+        </section>
+        <section>
+            <h2>My Approach</h2>
+            <p>My approach is centered around forming strong, effective partnerships with my clients. I believe in open communication and providing a personalized service that truly meets your needs. Leveraging AI and data analytics, I ensure that you receive the highest quality leads, allowing you to focus on achieving the best outcomes for your clients.</p>
+        </section>
+        <section class="contact-info">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, please reach out via email or connect with me on LinkedIn.</p>
+            <p>Email: <a href="mailto:zach@example.com">zach@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/zach-profile" target="_blank">linkedin.com/in/zach-profile</a></p>
+        </section>
+    </div>
+</body>
+</html>
